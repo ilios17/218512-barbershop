@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп: каталог</title>
   </head>
   <body>
     <header class="main-header">
@@ -50,63 +50,46 @@
             <span class="breadcrumbs-link-current">Средства для ухода</span>
           </li>
         </ul>
-      <div class="filter">
+      </div>
+      <aside class="filter">
         <form class="filter-form" action="#" method="get">
           <div class="filter-producer">
             <h2 class="filter-producer-title">ПРОИЗВОДИТЕЛИ:</h2>
-            <label>
-              <input type="checkbox" name="baxter">
-              BAXTER OF CALIFORNIA
-            </label>
-            <label>
-              <input type="checkbox" name="mrnatty">
-              MR NATTY
-            </label>
-            <label>
-              <input type="checkbox" name="suavecito">
-              SUAVECITO
-            </label>
-            <label>
-              <input type="checkbox" name="malin-goetz">
-              MALIN-GOETZ
-            </label>
-            <label>
-              <input type="checkbox" name="murrays">
-              MURRAY'S
-            </label>
-            <label>
-              <input type="checkbox" name="americancrew">
-              AMERICAN CREW
-            </label>
+            <input id="checkbox1" type="checkbox" name="baxter">
+            <label for="checkbox1"> BAXTER OF CALIFORNIA</label>
+            <input id="checkbox2" type="checkbox" name="mrnatty">
+            <label for="checkbox2">MR NATTY  </label>
+            <input id="checkbox3" type="checkbox" name="suavecito">
+            <label for="checkbox3">SUAVECITO</label>
+            <input id="checkbox4" type="checkbox" name="malin-goetz">
+            <label for="checkbox4">MALIN-GOETZ</label>
+            <input id="checkbox5" type="checkbox" name="murrays">
+            <label for="checkbox5">MURRAY'S</label>
+            <input id="checkbox6" type="checkbox" name="americancrew">
+            <label for="checkbox6">AMERICAN CREW</label>
           </div>
           <div class="filter-type">
             <h2 class="filter-type-title">ГРУППЫ ТОВАРОВ:</h2>
-            <label>
-              <input type="radio" name="product-group" value="supplies">
-              БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
-            </label>
-            <label>
-              <input type="radio" name="product-group" value="careproducts">
-              СРЕДСТВА ДЛЯ УХОДА
-            </label>
-            <label>
-              <input type="radio" name="product-group" value="accessorise">
-              АКСЕССУАРЫ
-            </label>
+            <input id="radio1" type="radio" name="product-group" value="supplies">
+            <label for="radio1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+            <input id="radio2" type="radio" name="product-group" value="careproducts">
+            <label for="radio2">СРЕДСТВА ДЛЯ УХОДА</label>
+            <input id="radio3" type="radio" name="product-group" value="accessorise">
+            <label for="radio3">АКСЕССУАРЫ</label>
           </div>
           <input type="submit" value="ПОКАЗАТЬ" name="show">
         </form>
-      </div>
+      </aside>
       <section class="products">
         <article class="products-item">
           <a href="#">
-            <img src="http://placehold1.it/150x100" alt="Набор для путешествий
+            <img src="http://placehold.it/150x100" alt="Набор для путешествий
           «BAXTER OF CALIFORNIA»">
           </a>
-          <a class="products-link" href="#">
-            <span>Набор для путешествий</span>
-            <span>«BAXTER OF CALIFORNIA»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Набор для путешествий<br>
+            «BAXTER OF CALIFORNIA»</a>
+          </h2>
           <div class="buy-box">
             <span class="products-price">2 900 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
@@ -114,13 +97,13 @@
         </article>
         <article class="products-item">
           <a href="#">
-            <img src="http://placehold2.it/150x100" alt="Увлажняющий кондиционер
+            <img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер
              «BAXTER OF CALIFORNIA»">
           </a>
-          <a class="products-link" href="#">
-            <span>Увлажняющий кондиционер</span>
-            <span>«BAXTER OF CALIFORNIA»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Увлажняющий кондиционер<br>
+            «BAXTER OF CALIFORNIA»</a>
+          </h2>
           <div class="buy-box">
             <span class="products-price">750 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
@@ -128,13 +111,13 @@
         </article>
         <article class="products-item">
           <a href="#">
-            <img src="http://placehold3.it/150x100" alt="Гель для волос
+            <img src="http://placehold.it/150x100" alt="Гель для волос
              «SUAVECITO»">
           </a>
-          <a class="products-link" href="#">
-            <span>Гель для волос</span>
-            <span>«SUAVECITO»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Гель для волос<br>
+            «SUAVECITO»</a>
+          </h2>
           <div class="buy-box">
             <span class="products-price">290 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
@@ -142,13 +125,13 @@
         </article>
         <article class="products-item">
           <a href="#">
-            <img src="http://placehold4.it/150x100" alt="Глина для укладки волос
+            <img src="http://placehold.it/150x100" alt="Глина для укладки волос
              «American crew»">
           </a>
-          <a class="products-link" href="#">
-            <span>Глина для укладки волос</span>
-            <span>«AMERICAN CREW»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Глина для укладки волос<br>
+            «AMERICAN CREW»  </a>
+          </h2>
           <div class="buy-box">
             <span class="products-price">500 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
@@ -156,39 +139,39 @@
         </article>
         <article class="products-item">
           <a href="#">
-            <img src="http://placehold5.it/150x100" alt="Гель для волос
+            <img src="http://placehold.it/150x100" alt="Гель для волос
           «AMERICAN CREW»">
           </a>
-          <a class="products-link" href="#">
-            <span>Гель для волос</span>
-            <span>«AMERICAN CREW»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Гель для волос<br>
+            «AMERICAN CREW»</a>
+          </h2>
           <div class="buy-box">
             <span class="products-price">300 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
           </div>
         </article>
         <article class="products-item">
-          <a href="#"
-           <img src="http://placehold6.it/150x100" alt="Набор для бритья
+          <a href="#">
+           <img src="http://placehold.it/150x100" alt="Набор для бритья
              «BAXTER OF CALIFORNIA»">
           </a>
-          <a class="products-link" href="#">
-            <span>Набор для бритья</span>
-            <span>«BAXTER OF CALIFORNIA»</span>
-          </a>
+          <h2><a class="products-link" href="#">
+            Набор для бритья<br>
+            «BAXTER OF CALIFORNIA»</a>
+          </h2>
           <div class="buy-box">
-            <span class="link-price">3 900 РУБ.</sopan>
+            <span class="link-price">3 900 РУБ.</span>
             <a href="#" class="buy-btn">КУПИТЬ</a>
           </div>
         </article>
       </section>
-      <div class="paginator">
-        <a href="#" class="paginator-btn">1</a>
-        <span class="paginator-btn-current">2</span>
-        <a href="#" class="paginator-btn">3</a>
-        <a href="#" class="paginator-btn">4</a>
-      </div>
+      <ul class="paginator">
+        <li><a href="#" class="paginator-btn">1</a></li>
+        <li><span class="paginator-btn-current">2</span></li>
+        <li><a href="#" class="paginator-btn">3</a></li>
+        <li><a href="#" class="paginator-btn">4</a></li>
+      </ul>
     </main>
     <footer class="main-footer">
       <div class="container">
